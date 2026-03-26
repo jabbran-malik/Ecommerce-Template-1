@@ -1,5 +1,6 @@
 {
-  "framework": null,
-  "buildCommand": null,
-  "outputDirectory": "."
+  "buildCommand": "",
+  "outputDirectory": ".",
+  "publicPath": "./Yummxo-bakery-store-design/Yummxo - Bakery Store",
+  "framework": null
 }

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummxo</title>
+    <!-- --------------font-awesome-------------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- --------------css-------------------- -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- --------------navbar-items-------------------- -->
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i> Yummxo </a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#categories">categories</a>
+            <a href="#reviews">reviews</a>
+            <!-- <a href="foam.html">Contact</a> -->
+            <a href="foam.html">contact</a>
+
+        </nav>
+        <!-- --------------navbar-items-icons-------------------- -->
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        <!-- --------------search-form-------------------- -->
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <!-- ------------------cart-------------------------------- -->
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash btn-danger"></i>
+                <img class="item-img" src="Images/Carrot.png" alt="">
+                <div class="content">
+                    <h3 class="item-title">Carrot</h3>
+                    <span class="item-price">$4.99/-</span>
+                    <span class="item-quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash btn-danger"></i>
+                <img class="item-img" src="Images/fruitcake.png" alt="">
+                <div class="content">
+                    <h3 class="item-title">Fruit</h3>
+                    <span class="item-price">$4.99/-</span>
+                    <span class="item-quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash btn-danger"></i>
+                <img class="item-img" src="Images/Strawberry.png" alt="">
+                <div class="content">
+                    <h3 class="item-title">Strawberry</h3>
+                    <span class="item-price">$4.99/-</span>
+                    <span class="item-quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total"> total : $19.69/- </div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+        <!-- --------------login-form-------------------- -->
+        <form action="" class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" placeholder="your emial" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>dont have an account <a href="#">create now</a></p>
+            <input type="submit" value="login" class="btn">
+        </form>
+    </header>
+    <!-- --------------home-------------------- -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Always <span>Fresh</span> Always<span> Delicious</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, expedita Fuga quis minima vel laborum
+                iusto Corrupti porro alias ex adipisci </p>
+            <a href="#" class="btn" id="categories">Shop Now</a>
+        </div>
+    </section>
+    <!-- --------------categories-------------------- -->
+    <section class="categories" id="categories">
+        <h1 class="heading">Our <span>categories</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="Images/Carrot.png" alt="">
+                <h3>Cakes</h3>
+                <p>upto 5% discount</p>
+                <a href="cake.html" class="btn">Shop now</a>
+            </div>
+            <div class="box">
+                <img src="Images/cupcake.png" alt="">
+                <h3>Cupcakes</h3>
+                <p>upto 2% discount</p>
+                <a href="cupcakes.html" class="btn">Shop now</a>
+            </div>
+            <div class="box">
+                <img src="Images/bakery (1).png" alt="">
+                <h3>Bakery Items</h3>
+                <p>upto 5% discount</p>
+                <a href="bakery.html" class="btn">Shop now</a>
+            </div>
+            <div class="box">
+                <img src="Images/2-2-sweets-free-download-png.png" alt="">
+                <h3>Sweets</h3>
+                <p>upto 10% discount</p>
+                <a href="sweets.html" class="btn">Shop now</a>
+            </div>
+
+        </div>
+        <!-- --------------features-------------------- -->
+    </section>
+    <section class="features" id="features">
+        <h1 class="heading">Our <span>Features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="Images/istockphoto-482852805-612x612.jpg" alt="" height="150px" width="150px">
+                <h3>Fresh and Quality</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <img src="Images/feature-img-2.png" alt="">
+                <h3>Free Delivery</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <img src="Images/feature-img-3.png" alt="" height="150px" width="180px">
+                <h3>Easy Payments</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!-- --------------reviews-------------------- -->
+    <section class="reviews" id="reviews">
+        <h1 class="heading">Our <span>reviews</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="Images/pic-1.png" alt="">
+                <h3>Customer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi blanditiis amet</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <img src="Images/pic-2.png" alt="">
+                <h3>Customer </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi blanditiis amet</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <img src="Images/pic-3.png" alt="">
+                <h3>Customer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi blanditiis amet</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <img src="Images/pic-4.png" alt="">
+                <h3>Customer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi blanditiis amet</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!-- --------------footer-------------------- -->
+    <section class="footer" id="contact">
+        <div class="box-container">
+            <div class="box">
+                <h3><i class="fas fa-shopping-basket"></i> Yummxo </h3>
+                <div class="share">
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                    <a href="#" class="fas fa-map-marker"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- --------------javascript-------------------- -->
+    <script src="java.js"></script>
+</body>
+
+</html>

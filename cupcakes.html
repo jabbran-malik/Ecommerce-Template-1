@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo"><i class="fas fa-shopping-basket"></i> Yumxo </a>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="index.html">Features</a>
+      <a href="index.html">categories</a>
+      <a href="index.html">reviews</a>
+      <a href="index.html">contact</a>
+    </nav>
+    <!-- --------------navbar-items-icons-------------------- -->
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+    <!-- --------------search-form-------------------- -->
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+            <!-- ------------------cart-------------------------------- -->
+            <div class="shopping-cart">
+              <div class="box">
+                  <i class="fas fa-trash btn-danger"></i>
+                  <img class="item-img" src="Images/Carrot.png" alt="">
+                  <div class="content">
+                      <h3 class="item-title">Carrot</h3>
+                      <span class="item-price">$4.99/-</span>
+                      <span class="item-quantity">qty : 1</span>
+                  </div>
+              </div>
+              <div class="box">
+                  <i class="fas fa-trash btn-danger"></i>
+                  <img class="item-img" src="Images/fruitcake.png" alt="">
+                  <div class="content">
+                      <h3 class="item-title">Fruit</h3>
+                      <span class="item-price">$4.99/-</span>
+                      <span class="item-quantity">qty : 1</span>
+                  </div>
+              </div>
+              <div class="box">
+                  <i class="fas fa-trash btn-danger"></i>
+                  <img class="item-img" src="Images/Strawberry.png" alt="">
+                  <div class="content">
+                      <h3 class="item-title">Strawberry</h3>
+                      <span class="item-price">$4.99/-</span>
+                      <span class="item-quantity">qty : 1</span>
+                  </div>
+              </div>
+              <div class="total"> total : $19.69/- </div>
+              <a href="#" class="btn">checkout</a>
+          </div>
+    <!-- --------------login-form-------------------- -->
+    <form action="" class="login-form">
+        <h3>Login Now</h3>
+        <input type="email" placeholder="your emial" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>dont have an account <a href="#">create now</a></p>
+        <input type="submit" value="login" class="btn">
+    </form>
+</header>
+  <section class="cupcakes" id="cupcakes">
+    <h1 class="heading">Cupcake <span>Section</span> </h1>
+    <div class="box-container">
+       <div class="box" data-name="p-1">
+           <img src="Images/cupcake2.png" alt="">
+           <h3>Strawberry</h3>
+           <p class="price">4.99$-11.99$</p>
+           <a href="#" class="btn">Shop Now</a>
+       </div>
+       <div class="box" data-name="p-2">
+          <img src="Images/kindpng_85567.png" alt="">
+          <h3>Blueberry</h3>
+          <p class="price">4.99$-11.99$</p>
+          <a href="#" class="btn">Shop Now</a>
+      </div>
+      <div class="box" data-name="p-3">
+          <img src="Images/cupcake.png" alt="">
+          <h3>Chocolate</h3>
+          <p class="price">4.99$-11.99$</p>
+           <a href="#" class="btn">Shop Now</a>
+      </div>
+      <div class="box" data-name="p-4">
+          <img src="Images/5a1c82d11e7bb6.1108200515118179371249.png" alt="">
+          <h3>Muffins</h3>
+          <p class="price">4.99$-11.99$</p>
+           <a href="#" class="btn">Shop Now</a>
+      </div>
+      <div class="box" data-name="p-5" >
+        <img src="Images/donut.png" height="15px" alt="">
+        <h3>Donuts</h3>
+        <p class="price">4.99$-11.99$</p>
+           <a href="#" class="btn">Shop Now</a>
+    </div>
+    <div class="box" data-name="p-6">
+      <img src="Images/pngegg (1).png" alt="">
+      <h3>Cheese Cake</h3>
+      <p class="price">4.99$-11.99$</p>
+      <a href="#" class="btn">Shop Now</a>
+  </div>
+  
+  </div>
+  </section>
+    
+    
+
+
+    <script src="java.js"></script>
+</body>
+</html>

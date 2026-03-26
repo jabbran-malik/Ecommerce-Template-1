@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Form</title>
+      <!-- --------------font-awesome-------------------- -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+      <!-- --------------css-------------------- -->
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- --------------navbar-items-------------------- -->
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i> Yummxo </a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="index.html">Features</a>
+            <a href="index.html">categories</a>
+            <a href="index.html">reviews</a>
+            <a href="foam.html">Contact</a>
+        </nav>
+        <!-- --------------navbar-items-icons-------------------- -->
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        <!-- --------------search-form-------------------- -->
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <!-- ------------------cart-------------------------------- -->
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash btn-danger"></i>
+                <img class="item-img" src="Images/Carrot.png" alt="">
+                <div class="content">
+                    <h3 class="item-title">Carrot</h3>
+                    <span class="item-price">$4.99/-</span>
+                    <span class="item-quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash btn-danger"></i>
+                <img class="item-img" src="Images/fruitcake.png" alt="">
+                <div class="content">
+                    <h3 class="item-title">Fruit</h3>
+                    <span class="item-price">$4.99/-</span>
+                    <span class="item-quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash btn-danger"></i>
+                <img class="item-img" src="Images/Strawberry.png" alt="">
+                <div class="content">
+                    <h3 class="item-title">Strawberry</h3>
+                    <span class="item-price">$4.99/-</span>
+                    <span class="item-quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total"> total : $19.69/- </div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+        <!-- --------------login-form-------------------- -->
+        <form action="" class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" placeholder="your emial" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>dont have an account <a href="#">create now</a></p>
+            <input type="submit" value="login" class="btn">
+        </form>
+    </header>
+    <!-- forms -->
+    
+    <div class="contact-box">
+        <div class="left"></div>
+        <div class="right">
+          <!-- <a href="foam.html"></a> -->
+            <h2>Contact Us</h2>
+            <input type="text" class="field" placeholder="Your Name">
+            <input type="text" class="field" placeholder="Your Email">
+            <input type="text" class="field" placeholder="Phone">
+            <textarea placeholder="Message" class="field"></textarea>
+            <button class="btn">Send</button>
+        </div>
+    </div>
+</div>
+
+  <!-- footer -->
+  <section class="footer" id="contact">
+    <div class="box-container">
+        <div class="box">
+            <h3><i class="fas fa-shopping-basket"></i> Yummxo </h3>
+            <div class="share">
+                <a href="#" class="fas fa-envelope"></a>
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fas fa-phone"></a>
+                <a href="#" class="fas fa-map-marker"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- footer -->
+</body>
+</html>
+
+
+
+
+<style>
+ .container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: auto;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+
+.hei{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-left: 219px;
+    margin-top: -11px;
+    font-size: small;
+    font-weight: 200;
+    background-color:#D3D3D3;
+    width: 35px;
+    height: 35px;
+    border-radius:50% ;
+}
+</style>
